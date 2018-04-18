@@ -48,9 +48,10 @@ echo 'setenv R_LIBS ~/R' >> ~/.cshrc
 ```
 
 # Repairing R Packages
+```bash
 export R_LIBS=$HOME/R
 rPkgsInstall -pkgs ALL
-
+```
 
 # References
 * https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#
