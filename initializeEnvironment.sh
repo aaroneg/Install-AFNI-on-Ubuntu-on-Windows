@@ -13,4 +13,3 @@ sudo apt-get install -y tcsh xfonts-base python-qt4       \
 cd
 curl -O https://afni.nimh.nih.gov/pub/dist/bin/linux_ubuntu_16_64/@update.afni.binaries
 tcsh @update.afni.binaries -package linux_ubuntu_16_64  -do_extras
-sudo mkdir /mnt/labs
