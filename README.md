@@ -5,8 +5,8 @@ Run the following command as an administrator in powershell:
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -All -LimitAccess -NoRestart -ErrorAction Stop
 ```
 ## Ubuntu on Windows 
-Install Ubuntu on Windows (Store link) : https://www.microsoft.com/store/p/ubuntu/9nblggh4msv6
-Install Ubuntu on Windows (AppX Download) : https://aka.ms/wsl-ubuntu-1604
+* Install Ubuntu on Windows (Store link) : https://www.microsoft.com/store/p/ubuntu/9nblggh4msv6
+* Install Ubuntu on Windows (AppX Download) : https://aka.ms/wsl-ubuntu-1604
 
 ## X server for Windows 
 VcXsrv : https://sourceforge.net/projects/vcxsrv/files/latest/download
