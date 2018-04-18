@@ -36,7 +36,7 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 
 # Mounting network shares automatically
 ```bash
-echo "\\server\share /mnt/sharename     drvfs   defaults        0 0" >> /etc/fstab
+echo "\\server\share /mnt/share     drvfs   defaults        0 0" | sudo tee --append /etc/fstab
 echo "sudo mount -a" >> ~/.profile
 ``` 
 
