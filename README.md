@@ -1,6 +1,6 @@
 # Pre-requisites
 ## Linux Subsystem
-
+Run the following command as an administrator in powershell:
 ```powershell
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe  -Command "Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -All -LimitAccess -NoRestart -ErrorAction Stop"
+Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -All -LimitAccess -NoRestart -ErrorAction Stop
 ```
