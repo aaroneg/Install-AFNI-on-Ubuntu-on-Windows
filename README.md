@@ -12,11 +12,33 @@ Install Ubuntu on Windows (AppX Download) : https://aka.ms/wsl-ubuntu-1604
 VcXsrv : https://sourceforge.net/projects/vcxsrv/files/latest/download
 Xming ( not free unless you want a really old install ) : http://www.straightrunning.com/XmingNotes/
 
-# Set up the Environment
+# Install AFNI environment
+## Set up the Environment
 * Clone this repo into your home folder of your Ubuntu user
+* cd into the new folder 
 * Run `sh ./initializeEnvironment.sh`
+* Close your Ubuntu window and re-open
+* cd into the repo
+
+## Install R
+* Run `sh ./installR.sh`
+
+## Make AFNI profiles, prepare for bootcamp and evaluate system:
+* Run `sh ./createAfniProfiles.sh`
+
+# Run AFNI
+* Every time you run `afni` you need to be running your X server first. 
+* Launch Ubuntu
+* run `afni` 
+
+# Mounting network shares automatically
+```bash
+echo "\\server\share /mnt/sharename     drvfs   defaults        0 0" >> /etc/fstab
+echo "sudo mount -a" >> ~/.profile
+``` 
 
 # References
 * https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#
 * https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * https://docs.microsoft.com/en-us/windows/wsl/install-on-server
+* https://blogs.msdn.microsoft.com/wsl/2017/04/18/file-system-improvements-to-the-windows-subsystem-for-linux/
