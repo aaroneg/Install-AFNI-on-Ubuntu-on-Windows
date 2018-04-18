@@ -37,6 +37,18 @@ echo "\\server\share /mnt/sharename     drvfs   defaults        0 0" >> /etc/fst
 echo "sudo mount -a" >> ~/.profile
 ``` 
 
+# Notes
+* The AFNI developers *really* want you to use tcsh. If you want to do this, you'll need to run this at minimum (untested)
+```bash
+chsh -s /usr/bin/tcsh
+echo 'setenv R_LIBS ~/R' >> ~/.cshrc
+```
+
+# Repairing R Packages
+export R_LIBS=$HOME/R
+rPkgsInstall -pkgs ALL
+
+
 # References
 * https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#
 * https://docs.microsoft.com/en-us/windows/wsl/install-win10
