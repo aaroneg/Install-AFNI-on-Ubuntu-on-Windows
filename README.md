@@ -9,8 +9,8 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 * Install Ubuntu on Windows (AppX Download) : https://aka.ms/wsl-ubuntu-1604
 
 ## X server for Windows 
-VcXsrv : https://sourceforge.net/projects/vcxsrv/files/latest/download
-Xming ( not free unless you want a really old install ) : http://www.straightrunning.com/XmingNotes/
+* VcXsrv : https://sourceforge.net/projects/vcxsrv/files/latest/download
+* Xming ( not free unless you want a really old install ) : http://www.straightrunning.com/XmingNotes/
 
 # Install AFNI environment
 ## Set up the Environment
