@@ -1,3 +1,6 @@
+# Warning
+All of these scripts take a long time to complete. I suggest not making any attempt to run them if you need to restart your computer any time soon. 
+
 # Pre-requisites
 ## Linux Subsystem (tested in Windows 10, 1709)
 Run the following command as an administrator in powershell:
