@@ -43,6 +43,7 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 
 # Mounting network shares automatically
 ```bash
+sudo mkdir /mnt/share
 echo "\\server\share /mnt/share     drvfs   defaults        0 0" | sudo tee --append /etc/fstab
 echo "sudo mount -a" >> ~/.profile
 ``` 
@@ -62,7 +63,7 @@ I've had some feedback from `ptaylor` on the AFNI forums, who tells me the follo
 
 https://afni.nimh.nih.gov/afni/community/board/read.php?1,157848,157853#msg-157853
 
-As the main instructions include steps that set up both bash and tcsh, these scripts should also be sufficient since they were built using those same instructions, aside from the steps included above. 
+As these source instructions include steps that set up both bash and tcsh, these scripts should also be sufficient since they were built using those same instructions, aside from the steps included above. 
 
 ## Repairing R Packages (using bash)
 ```bash
