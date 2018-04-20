@@ -62,13 +62,22 @@ https://afni.nimh.nih.gov/afni/community/board/read.php?1,157848,157853#msg-1578
 
 As the main instructions include steps that set up both bash and tcsh, these scripts should also be sufficient since they were built using those same instructions, aside from the steps included above. 
 
-# Repairing R Packages (using bash)
+## Repairing R Packages (using bash)
 ```bash
 export R_LIBS=$HOME/R
 rPkgsInstall -pkgs ALL
 ```
 
-# References
+## Enabling Quick-Edit mode to make copying and pasting easier
+* This is on by default in release 1709, but if you need to enable it run the following command in powershell:
+```powershell
+Set-ItemProperty -path HKCU:\Console -Name QuickEdit -Value 1
+```
+This enables sane copying and pasting inside any Windows command shell (Ubuntu, CMD, Powershell)
+
+[Microsoft Documentation for QuickEdit mode](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc978582(v=technet.10))
+
+## References
 * https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#
 * https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * https://docs.microsoft.com/en-us/windows/wsl/install-on-server
