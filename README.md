@@ -62,7 +62,7 @@ https://afni.nimh.nih.gov/afni/community/board/read.php?1,157848,157853#msg-1578
 
 As the main instructions include steps that set up both bash and tcsh, these scripts should also be sufficient since they were built using those same instructions, aside from the steps included above. 
 
-# Repairing R Packages
+# Repairing R Packages (using bash)
 ```bash
 export R_LIBS=$HOME/R
 rPkgsInstall -pkgs ALL
