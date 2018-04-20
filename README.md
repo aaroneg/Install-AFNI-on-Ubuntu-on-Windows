@@ -77,7 +77,12 @@ This enables sane copying and pasting inside any Windows command shell (Ubuntu, 
 
 [Microsoft Documentation for QuickEdit mode](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc978582(v=technet.10))
 
-## References
+## (Optional) "Niceify" the terminal
+```bash
+sh ./niceifyTerminal.sh
+```
+
+# References
 * https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#
 * https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * https://docs.microsoft.com/en-us/windows/wsl/install-on-server
