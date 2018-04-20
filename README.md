@@ -47,7 +47,7 @@ chsh -s /usr/bin/tcsh
 echo 'setenv R_LIBS ~/R' >> ~/.cshrc
 ```
 
-I've had some feedback from the `ptaylor` on the AFNI forums, who tells me the following:
+I've had some feedback from `ptaylor` on the AFNI forums, who tells me the following:
 
 > Re. the choice of shell and our frequent use of tcsh-- we do have some scripts in bash and some in tcsh, and the latter is more popular locally mainly because of its relative readability. In general, we recommend setting up both bash and tcsh environments for AFNIing, and that is what our main instructions do. That way, whichever shell a user is using, they should be good to go. 
 
