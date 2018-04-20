@@ -69,7 +69,7 @@ rPkgsInstall -pkgs ALL
 ```
 
 ## Enabling Quick-Edit mode to make copying and pasting easier
-* This is on by default in release 1709, but if you need to enable it run the following command in powershell:
+* This is on by default in release 1709, but if you need to enable it run the following command in powershell (or run `Enable-QuickEdit.ps1` in powershell) :
 ```powershell
 Set-ItemProperty -path HKCU:\Console -Name QuickEdit -Value 1
 ```
