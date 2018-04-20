@@ -25,7 +25,7 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 
 ## X server for Windows 
 * VcXsrv : https://sourceforge.net/projects/vcxsrv/files/latest/download
-* Xming ( not free unless you want a really old install ) : http://www.straightrunning.com/XmingNotes/
+* XMing (free or paid) is not recommended, because some of the afni windows will crash on launch, this includes the 'AFNI Tips' sheet.
 
 # Install AFNI environment
 ## Set up the Environment
