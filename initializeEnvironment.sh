@@ -1,5 +1,7 @@
 echo "export DISPLAY=:0.0" >> ~/.bashrc
 echo "setenv DISPLAY :0.0" >> ~/.cshrc
+echo "export NO_AT_BRIDGE=1" >> ~/.bashrc
+echo "setenv NO_AT_BRIDGE 1" >> ~/.cshrc
 sudo apt-get update
 sudo apt-get install -y tcsh xfonts-base python-qt4       \
                         gsl-bin netpbm gnome-tweak-tool   \
