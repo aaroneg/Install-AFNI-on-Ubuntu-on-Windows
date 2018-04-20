@@ -46,6 +46,8 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 echo "\\server\share /mnt/share     drvfs   defaults        0 0" | sudo tee --append /etc/fstab
 echo "sudo mount -a" >> ~/.profile
 ``` 
+* This should not be necessary on versions of windows after release 1709 [Ref1](https://github.com/Microsoft/WSL/issues/2930) [Ref2](https://github.com/Microsoft/WSL/issues/2636)
+
 
 # Notes
 * The AFNI developers *really* want you to use tcsh. If you want to do this, you'll need to run this at minimum (untested)
