@@ -11,7 +11,7 @@ sudo apt-get install -y tcsh xfonts-base python-qt4       \
                         libxm4 build-essential            \
                         gnome-terminal nautilus           \
                         gnome-icon-theme-symbolic         \
-                        libcurl4-gnutls-dev
+                        libcurl4-gnutls-dev libssl-dev
 cd
 curl -O https://afni.nimh.nih.gov/pub/dist/bin/linux_ubuntu_16_64/@update.afni.binaries
 tcsh @update.afni.binaries -package linux_ubuntu_16_64  -do_extras
