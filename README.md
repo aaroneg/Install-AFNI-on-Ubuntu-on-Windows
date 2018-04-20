@@ -8,6 +8,11 @@ The AFNI developers were very kind, and provided a complete set of instructions 
 
 [AFNI Windows 10 instructions](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#)
 
+# Why not just use the instructions?
+You're certainly welcome to. There's no question that the instructions provided are both detailed and complete. They can also be hard to follow, as the windows 10 instructions reference the Ubuntu 16 instructions - but only sections of them. My goal was to simplify the process for the end-user, who may not be a Windows or Linux expert, or may just be an IT person who knows nothing about AFNI. I happen to be the IT guy who needed to install AFNI for a user but didn't want to read and parse 2 sets of instructions every time this was required for a new computer. Everything up to the actual afni install shell scripts can be performed by an IT technician, but since the Ubuntu install is unique to each user profile in Windows, afni is installed per-user and cannot be done ahead of time for the user without having the user's credentials, which is generally recognized as a bad idea and bad policy.
+
+Starting from the "Install AFNI environment" header, all actions can be performed by an end-user, without Windows administrative credentials. All instructions from the AFNI documentation are reproduced as faithfully as I can, and adapted where I couldn't (or an additional package install was needed for R packages to compile properly). The instructions should be easy enough for an end-user to follow without additional guidance from IT. Also, since they are scripts and not copy-paste code blocks, more actions can be placed into one step. Trying to copy and paste all code steps at once from the documentation page would result in errors, especially when any step involves using `sudo`. In script form, the full set of commands work as expected without breaking.
+
 # Pre-requisites
 ## Linux Subsystem (tested in Windows 10, 1709)
 Run the following command as an administrator in powershell (or run `Install-WSLFeature.ps1` with powershell)  :
