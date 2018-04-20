@@ -49,7 +49,7 @@ echo "sudo mount -a" >> ~/.profile
 ``` 
 This last line should not be necessary on versions of windows after release 1709
 * [WSL Issue 2930](https://github.com/Microsoft/WSL/issues/2930)
-* [WSL Issue 2639](https://github.com/Microsoft/WSL/issues/2636).
+* [WSL Issue 2639](https://github.com/Microsoft/WSL/issues/2636)
 
 # Notes
 * The AFNI developers *really* want you to use tcsh. If you want to do this, you'll need to run this at minimum (untested)
