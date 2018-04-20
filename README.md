@@ -10,7 +10,7 @@ The AFNI developers were very kind, and provided a complete set of instructions 
 
 # Pre-requisites
 ## Linux Subsystem (tested in Windows 10, 1709)
-Run the following command as an administrator in powershell:
+Run the following command as an administrator in powershell (or run `Install-WSLFeature.ps1` with powershell)  :
 ```powershell
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -All -LimitAccess -NoRestart -ErrorAction Stop
 ```
