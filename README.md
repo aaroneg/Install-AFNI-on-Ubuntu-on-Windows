@@ -47,6 +47,14 @@ chsh -s /usr/bin/tcsh
 echo 'setenv R_LIBS ~/R' >> ~/.cshrc
 ```
 
+I've had some feedback from the `ptaylor` on the AFNI forums, who tells me the following:
+
+> Re. the choice of shell and our frequent use of tcsh-- we do have some scripts in bash and some in tcsh, and the latter is more popular locally mainly because of its relative readability. In general, we recommend setting up both bash and tcsh environments for AFNIing, and that is what our main instructions do. That way, whichever shell a user is using, they should be good to go. 
+
+https://afni.nimh.nih.gov/afni/community/board/read.php?1,157848,157853#msg-157853
+
+As the main instructions include steps that set up both bash and tcsh, these scripts should also be sufficient since they were built using those same instructions, aside from the steps included above. 
+
 # Repairing R Packages
 ```bash
 export R_LIBS=$HOME/R
