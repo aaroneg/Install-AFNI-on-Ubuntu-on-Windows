@@ -1,6 +1,12 @@
 # Warning
 All of these scripts take a long time to complete. I suggest not making any attempt to run them if you need to restart your computer any time soon. 
 
+# A word of thanks
+
+The AFNI developers were very kind, and provided a complete set of instructions for Windows 10. These scripts and instructions are derived from there. You will want to look their documentation over and have a look at some of the sections labeled as "optional" because those are generally not included in these scripts, though some are included in the instructions below. 
+
+[AFNI Windows 10 instructions](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#)
+
 # Pre-requisites
 ## Linux Subsystem (tested in Windows 10, 1709)
 Run the following command as an administrator in powershell:
