@@ -1,9 +1,10 @@
 # Warning
-All of these scripts take a long time to complete. I suggest not making any attempt to run them if you need to restart your computer any time soon. 
+* All of these scripts take a long time to complete. I suggest not making any attempt to run them if you need to restart your computer any time soon. 
+* I don't recommend using any version of Windows 10 prior to release 1709 (also known as the Fall Creators Update) for this. Even though earlier releases included a version of the subsystem for Linux, it was not very well polished and would not be a good overall experience.
 
 # A word of thanks
 
-The AFNI developers were very kind, and provided a complete set of instructions for Windows 10. These scripts and instructions are derived from there. You will want to look their documentation over and have a look at some of the sections labeled as "optional" because those are generally not included in these scripts, though some are included in the instructions below. 
+The AFNI developers were very kind, and provided a complete set of instructions for Windows 10. These scripts and instructions are derived from there. You will want to look their documentation over and have a close look at the sections labeled as "optional" because those changes are generally not included in these scripts, though some are included in the instructions below. I especially want to thank the AFNI developers for doing the hard work required to make this work on Windows 10. 
 
 [AFNI Windows 10 instructions](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_windows10.html#)
 
