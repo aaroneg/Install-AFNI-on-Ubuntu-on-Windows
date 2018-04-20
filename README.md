@@ -1,5 +1,5 @@
 # Warning
-* All of these scripts take a long time to complete. I suggest not making any attempt to run them if you need to restart your computer any time soon. 
+* All of the shell scripts take a long time to complete. I suggest not making any attempt to run them if you need to restart your computer any time soon. 
 * I don't recommend using any version of Windows 10 prior to release 1709 (also known as the Fall Creators Update) for this. These scripts and instructions were developed using that release. Even though earlier releases included a version of the subsystem for Linux, it was not very well polished and would not be a good overall experience.
 
 # A word of thanks
