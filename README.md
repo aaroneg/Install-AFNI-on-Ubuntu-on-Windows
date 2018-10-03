@@ -50,11 +50,15 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 ```bash
 sudo mkdir /mnt/share
 echo "\\server\share /mnt/share     drvfs   defaults        0 0" | sudo tee --append /etc/fstab
-echo "sudo mount -a" >> ~/.profile
+# Not a requirement starting in Windows 10 release 1809, if you place the following lines in /etc/wsl.com
+# echo "sudo mount -a" >> ~/.profile
 ``` 
-This last line should not be necessary on versions of windows after release 1709
-* [WSL Issue 2930](https://github.com/Microsoft/WSL/issues/2930)
-* [WSL Issue 2636](https://github.com/Microsoft/WSL/issues/2636)
+/etc/wsl.conf:
+```bash
+[automount]
+enabled = true
+mountFsTab = true
+```
 
 # Notes
 * The AFNI developers *really* want you to use tcsh. If you want to do this, you'll need to run this at minimum (untested)
